@@ -66,3 +66,30 @@ There are two groups of types
 - you can assign a code block to a variable
 
 # Type coercion
+- incase of arithment operations JS will attempt the convert to number
+- incase of concatenation operation javascript will convert everything else into string
+- converts to boolean incase of relational or equality operations
+- when a boolean is operated with a number it converted into a number and an operation is done, true means 1 and false means 0
+- when a string is added with a number then concatenation si performed
+- everything is that is not a zero is true and everything that is a zero is false hence if you not anything that is not false it is then turned to false or true if its not a zero.
+
+# Note type coercion is a reason for many bugs
+
+# Explicit type conversion
+- toString() converts the given value to string using the dot operator on the variable name
+var.toString() or just pass the string variable into the String() function and assign the returned value to the variable name or you could use it as an object
+newString = new String(oldString);
+- parseInt() converts the value to integer
+- parseFloat() converts value to float
+
+with parse methods you just pass the values than need conversion and collect the returned type
+- Number() converts the value to a number
+Numbe is a class hence can be used as a method with return type of can be used as a constructor to create the NUmber object
+
+any method with to is attached to the old var to create the new var
+
+- toFixed() chooses decimal points before converting to the string and rounding happen
+- toPrecision() calculate the number of items in the list
+- toString() converts number value to string primitive how it is implemented depend what type is returned if it is a primitive or its an object
+- Boolen() is constructor method converts values to boolean primitive
+- NaN is a number
